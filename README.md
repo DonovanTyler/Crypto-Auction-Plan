@@ -6,6 +6,8 @@ Auction plan for NFTs
       The amount that a user can bid cannot exceed the current amount in their wallet
     Users can start an auction by selecting an NFT that they currently have to be auctioned
       Users must give the auctioned NFT a name under which it is sold (e.g. if I wanted to sell an NFT of a horse, I'd name the auctioned NFT "horse")
+      Users must also choose the type of cryptocurrency with which users can bid on the NFT (i.e. is this NFT being auctioned for bitcoin, ethereum, cardano, USDC, etc.)
+        Bids on the NFT can only be made in this cryptocurrency
     If a user starts an auction, they are allowed to select the duration for which the auction goes on
       This duration cannot exceed one year and cannot be less than 30 minutes
     The user that started the auction can close the auction at any time during its duration
@@ -14,7 +16,8 @@ Auction plan for NFTs
         OR 
         to remove the NFT from the auction and putting it back into the user's wallet (thus removing the NFT from sale and causing no one involved who bid to pay) after paying a minor fee (in order to deter users from constantly putting NFTs up for auction and then removing them)
     Only the bidder who wins the NFT needs to pay the amount they bidded
-    Users can search for various NFTs on auction
+    Users can search for various NFTs on auction by typing in a title
+    Additionally, current popular auctions will be displayed to the user by default
   For system:
     Current highest bid is displayed to users
     The time for the duration of an auction starts immediately when the NFT is confirmed to have been put up for auction and published on our application
